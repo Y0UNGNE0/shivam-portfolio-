@@ -1,0 +1,175 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  color:#fdfdfd;
+}
+body {
+  font-family: "Poppins", sans-serif; background-color :#000000;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+     background-color: rgb(97, 97, 249);
+   
+}
+nav .right ul {
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+}
+nav .right li a
+{
+  
+    justify-content: space-between;
+    margin-left: 28px;
+    text-decoration: none;
+    color: white;
+    
+ }
+.left:hover
+{
+    color:  rgb(97, 97, 249);
+    /* list-style: none; */
+ }
+ nav .right ul :hover
+ {
+     color:  rgb(97, 97, 249);
+     /* list-style: none; */
+  }
+ 
+
+.left
+{
+    font-size: 23px;
+}
+.section-first
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+}
+.left-section
+{
+   width: 60%;
+   font-size: 40px;
+   margin-top: 150px;
+   margin-left: 200px;
+}
+.right-section
+{   margin-right: 200px;
+    width: 30%
+    
+    
+}
+.right-section img{
+    width: 600px;
+    margin-right: 50px;
+    padding-right: 100px;
+    margin-top: 40px;
+}
+#element
+{
+    color: rgb(97, 97, 249);
+}
+.border
+{
+    margin-top: 100px;
+}
+.about-section
+{
+    width: 900px;
+    margin-left: 300px;
+}
+.about
+{
+    font-size: 28px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(97, 97, 249);
+}
+.about-words
+{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+.border-2
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services img
+{
+    width: 500px;
+}
+.servicesp
+{
+    font-size: 28px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(97, 97, 249);  
+}
+.border-3
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.right-contact
+{
+    border: solid 1px rgb(43, 43, 43);
+    margin-bottom: 100px;
+    padding: 30px;
+    width: 40%;
+    margin-left: 20px;
+}
+.form
+{
+    background-color: #000000;
+    color: #fdfdfd;
+    margin: 20px;
+    
+}
+.mb-3 input
+{
+    border: solid 1px rgb(43, 43, 43);
+    height: 25px;
+}
+.mb-3
+{
+    margin-top: 20px;
+}
+
+.btn 
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(97, 97, 249);
+    border: solid 1px rgb(43, 43, 43);
+    text-align: center;
+    margin-top: 20px;
+}
+.sh2
+{
+    background-color: rgb(97, 97, 249);
+    text-align: center;
+}
